@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+.container {
+  width: 80%;
+  margin:1% auto 0;
+
+}
+
+.margin1 {
+  margin-bottom: 1%;
+}
+
+.header-box {
+  height: 80px;
+  background-color: violet;
+}
+
+.section1-box {
+  height: 335px;
+  background-color: gold;
+}
+
+.section2-box {
+  height: 450px;
+  background-color: blue;
+}
+
+.margin2 {
+  margin-bottom: 0.5%;
+}
+
+.text-section {
+  height: 100px;
+  background-color: lightblue;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.float {
+  float: left;
+  height: 320px;
+  background-color: lightblue;
+}
+
+.aside {
+  width: 20%;
+}
+
+.center {
+  width: 58%;
+  margin: 0 1%;
+}
+
+.footer-setup {
+  height: 55px;
+  background-color: darkviolet;
+}
+
+#fix-margin {
+  margin-top: 0%;
+}
