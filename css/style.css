@@ -3,6 +3,7 @@
   padding: 0;
   border: 0;
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -20,8 +21,15 @@ body {
 }
 
 .header-box {
-  height: 80px;
-  background-color: violet;
+  width: 6%;
+  height: auto;
+}
+
+.border {
+  display: inline-block;
+  border-right: 1px solid lightgrey;
+  height: 40px;
+  margin-left: 1%;
 }
 
 .section1-box {
