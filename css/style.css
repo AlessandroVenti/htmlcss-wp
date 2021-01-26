@@ -16,10 +16,6 @@ body {
 
 }
 
-.margin1 {
-  margin-bottom: 1%;
-}
-
 .header-box {
   width: 6%;
   height: auto;
@@ -30,6 +26,10 @@ body {
   border-right: 1px solid lightgrey;
   height: 40px;
   margin-left: 1%;
+}
+
+.margin1 {
+  margin-bottom: 1%;
 }
 
 ul li {
@@ -63,15 +63,15 @@ li a{
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-div h2,h5{
-  color: white;
-  width: 50%;
-}
-
 .text-box {
   position: absolute;
   left: 50px;
   bottom: 50px;
+}
+
+div h2,h5{
+  color: white;
+  width: 50%;
 }
 
 .margin2 {
@@ -101,10 +101,13 @@ div h2,h5{
   float: left;
 }
 
-#img1 {
-  background-image: url(../img/img-1.jpg);
-  height: 250px;
-  position:relative;
+.aside {
+  width: 20%;
+}
+
+.center {
+  width: 58%;
+  margin: 0 1%;
 }
 
 .float h5:last-child {
@@ -118,21 +121,10 @@ div h2,h5{
   margin: 2% 0;
 }
 
-.aside {
-  width: 20%;
-}
-
-.center {
-  width: 58%;
-  margin: 0 1%;
-}
-
-.footer-setup {
-  background-color: darkviolet;
-}
-
-#fix-margin {
-  margin-top: 0%;
+#img1 {
+  background-image: url(../img/img-1.jpg);
+  height: 250px;
+  position:relative;
 }
 
 #img2 {
@@ -146,4 +138,13 @@ div h2,h5{
   background-image: url(../img/img-3.jpg);
   height: 250px;
   position:relative;
+}
+
+.footer-setup {
+  text-align: center;
+  margin: 1% 0;
+}
+
+h6 > span{
+  color: red;
 }
