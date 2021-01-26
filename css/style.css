@@ -32,6 +32,17 @@ body {
   margin-left: 1%;
 }
 
+ul li {
+  display: inline-block;
+  margin-right: 0.5%;
+}
+
+li a{
+  text-decoration: none;
+  color: grey;
+  font-weight: bold;
+}
+
 .section1-box {
   height: 335px;
   background-color: gold;
