@@ -55,6 +55,7 @@ li a{
 
 .layover {
   position: absolute;
+  border-radius: 20px;
   top: 0;
   left: 0;
   right: 0;
@@ -73,18 +74,21 @@ div h2,h5{
   bottom: 50px;
 }
 
-.section2-box {
-  height: 450px;
-  background-color: blue;
-}
-
 .margin2 {
   margin-bottom: 0.5%;
 }
 
-.text-section {
-  height: 100px;
-  background-color: lightblue;
+#text-section {
+  margin: 1% 0;
+}
+
+#text-section h2:only-of-type {
+  color: black;
+  font-weight: bold;
+}
+
+#text-section h5:only-of-type {
+  color: grey;
 }
 
 .clearfix::after {
@@ -95,8 +99,23 @@ div h2,h5{
 
 .float {
   float: left;
-  height: 320px;
-  background-color: lightblue;
+}
+
+#img1 {
+  background-image: url(../img/img-1.jpg);
+  height: 250px;
+  position:relative;
+}
+
+.float h5:last-child {
+  color: grey;
+  width: 100%;
+  margin-top: 2%;
+}
+
+.subtitle {
+  color: black;
+  margin: 2% 0;
 }
 
 .aside {
@@ -109,10 +128,22 @@ div h2,h5{
 }
 
 .footer-setup {
-  height: 55px;
   background-color: darkviolet;
 }
 
 #fix-margin {
   margin-top: 0%;
+}
+
+#img2 {
+  background-image: url(../img/banner-2.jpg);
+  height: 250px;
+  position:relative;
+  background-position: center;
+}
+
+#img3 {
+  background-image: url(../img/img-3.jpg);
+  height: 250px;
+  position:relative;
 }
